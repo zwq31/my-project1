@@ -1,0 +1,9 @@
+git init
+git remote add origin https://github.com/zwq31/my-project1.git
+git lfs install
+git lfs track "*.zip"
+git add .gitattributes
+git add checkpoint-4575.zip
+git commit -m "DeepSeek-R1-Distill-Llama-8B_qlora_adapter"
+git push -u origin master
+git pull origin master --rebase当上传过一次到master分支后这样
